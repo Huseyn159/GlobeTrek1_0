@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane alignment="CENTER" style="-fx-background-color: transparent;" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardContentController">
+    <children>
+        <!-- Globe Image -->
+        <ImageView fx:id="globeImageView" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+
+        <!-- Overlay for labels -->
+        <VBox alignment="CENTER" spacing="15.0" mouseTransparent="true">
+            <Label fx:id="welcomeTitleLabel" text="Welcome to GlobeTrek!" styleClass="welcome-title" />
+            <Label fx:id="welcomeMessageLabel" text="Your journey begins here." styleClass="sub-header-label" />
+        </VBox>
+    </children>
+</StackPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.AddBalanceController"
+            style="-fx-background-color: #f5f7fa;">
+
+    <VBox spacing="25" alignment="CENTER">
+        <padding>
+            <Insets top="30" right="20" bottom="20" left="20"/>
+        </padding>
+
+        <!-- TITLE -->
+        <Label text="Add Balance" style="-fx-font-size:26px; -fx-font-weight:bold; -fx-text-fill:#333;" />
+
+        <!-- CREDIT CARD -->
+        <StackPane fx:id="cardContainer" prefWidth="380" prefHeight="230">
+
+            <!-- FRONT -->
+            <AnchorPane fx:id="cardFront"
+                        style="-fx-background-radius:18; -fx-background-color:linear-gradient(to bottom right,#1e3c72,#2a5298);
+                               -fx-effect:dropshadow(gaussian, rgba(0,0,0,0.16),12,0,0,4);">
+
+                <ImageView fx:id="visaImageView" fitWidth="70" fitHeight="40" layoutX="290" layoutY="20"/>
+
+                <ImageView fx:id="chipImageView" fitWidth="50" fitHeight="40" layoutX="20" layoutY="20"/>
+
+                <Label fx:id="cardNumberLabel" layoutX="20" layoutY="110"
+                       text="#### #### #### ####"
+                       style="-fx-text-fill:white;-fx-font-size:22;-fx-font-weight:bold;"/>
+
+                <Label text="CARD HOLDER" layoutX="20" layoutY="160" style="-fx-text-fill:#cccccc;-fx-font-size:10;"/>
+                <Label fx:id="cardHolderLabel" layoutX="20" layoutY="178" text="YOUR NAME"
+                       style="-fx-text-fill:white;-fx-font-size:15;-fx-font-weight:bold;"/>
+
+                <Label text="VALID THRU" layoutX="220" layoutY="160" style="-fx-text-fill:#cccccc;-fx-font-size:10;"/>
+                <Label fx:id="expireLabel" layoutX="220" layoutY="178" text="MM/YY"
+                       style="-fx-text-fill:white;-fx-font-size:15;-fx-font-weight:bold;"/>
+            </AnchorPane>
+
+            <!-- BACK -->
+            <AnchorPane fx:id="cardBack" visible="false"
+                        style="-fx-background-radius:18; -fx-background-color:linear-gradient(to bottom right,#1e3c72,#2a5298);
+                               -fx-effect:dropshadow(gaussian, rgba(0,0,0,0.16),12,0,0,4);">
+                <Rectangle width="380" height="50" fill="#000" layoutY="20"/>
+                <Label text="CVV" layoutX="260" layoutY="110" style="-fx-text-fill:#cccccc;-fx-font-size:10;"/>
+                <Label fx:id="cvvBackLabel" layoutX="260" layoutY="130" text="●●●"
+                       style="-fx-text-fill:white;-fx-font-size:18;-fx-font-weight:bold;"/>
+            </AnchorPane>
+
+        </StackPane>
+
+        <!-- FORM -->
+        <VBox spacing="10" alignment="CENTER" prefWidth="300">
+            <TextField fx:id="cardNumberField" promptText="Card Number"
+                       style="-fx-background-radius:8; -fx-border-radius:8; -fx-border-color:#b7b7b7;"/>
+            <TextField fx:id="cardHolderField" promptText="Card Holder Name"
+                       style="-fx-background-radius:8; -fx-border-radius:8; -fx-border-color:#b7b7b7;"/>
+            <HBox spacing="10" alignment="CENTER">
+                <TextField fx:id="expMonthField" promptText="MM" prefWidth="60"
+                           style="-fx-background-radius:8; -fx-border-color:#b7b7b7;"/>
+                <TextField fx:id="expYearField" promptText="YY" prefWidth="60"
+                           style="-fx-background-radius:8; -fx-border-color:#b7b7b7;"/>
+                <PasswordField fx:id="cvvField" promptText="CVV" prefWidth="80"
+                               style="-fx-background-radius:8; -fx-border-color:#b7b7b7;"/>
+            </HBox>
+            <TextField fx:id="amountField" promptText="Amount ($)"
+                       style="-fx-background-radius:8; -fx-border-color:#b7b7b7;"/>
+            <Label fx:id="errorLabel" style="-fx-text-fill:red;-fx-font-weight:bold;"/>
+            <Label fx:id="confirmationLabel" style="-fx-text-fill:green;-fx-font-weight:bold;"/>
+            <Button text="Add Balance" onAction="#handleAddBalance"
+                    style="-fx-background-color:#007bff;-fx-background-radius:10;
+                           -fx-text-fill:white;-fx-font-size:16;
+                           -fx-pref-width:200;-fx-pref-height:40;"/>
+        </VBox>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,37 @@
+Huseyn|Azerbaijan|Turkey|Economy|false|200.0|2025-11-10T12:30
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2025-11-19T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2025-11-21T00:00
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2025-11-19T00:00
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2025-11-20T00:00
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2025-11-28T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2025-11-20T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2025-11-29T00:00
+Huseyn12|China|France|First|true|850.0|2026-11-13T00:00
+Huseyn12|Azerbaijan|Georgia|Economy|false|200.0|2025-12-03T00:00
+Huseyn12|Azerbaijan|United Kingdom|First|true|450.0|2026-01-15T00:00
+Huseyn12|Azerbaijan|Turkey|First|false|400.0|2026-01-15T00:00
+Huseyn12|Azerbaijan|Turkey|Business|false|300.0|2025-11-21T00:00
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2026-01-14T00:00
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2027-11-20T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2027-11-26T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2022-11-25T00:00
+Huseyn12|Azerbaijan|France|Economy|true|250.0|2025-10-29T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2026-01-15T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2026-01-09T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|200.0|2025-10-28T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|190.0|2029-12-01T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|190.0|2029-12-01T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2029-12-01T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2029-12-01T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2031-12-05T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2021-11-26T00:00
+Huseyn12|Azerbaijan|Turkey|First|false|360.0|2026-03-18T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2025-05-31T00:00
+Huseyn12|Azerbaijan|France|Economy|true|225.0|2025-11-29T00:00
+Huseyn12|Azerbaijan|France|Economy|true|225.0|2025-11-15T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2025-11-01T00:00
+Huseyn12|Azerbaijan|Turkey|Economy|false|180.0|2025-11-21T00:00
+Huseyn12|Azerbaijan|France|Economy|true|225.0|2025-11-15T00:00
+testuser|USA|France|Economy|true|500.0|2025-10-20T10:00
+Sabina|Italy|United States|Business|false|600.0|2025-12-17T00:00
+Sabina|Italy|Azerbaijan|First|false|400.0|2025-12-05T00:00

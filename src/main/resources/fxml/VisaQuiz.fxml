@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" spacing="20.0" styleClass="root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VisaQuizController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label styleClass="header-label" text="Visa Quiz" />
+
+    <VBox alignment="CENTER" spacing="15.0" styleClass="card">
+        <VBox fx:id="quizBox" alignment="CENTER" spacing="15.0" maxWidth="500.0">
+            <Label fx:id="questionLabel" styleClass="sub-header-label" text="Question goes here..." wrapText="true" maxWidth="480.0" />
+            <TextField fx:id="answerField" promptText="Enter your answer" styleClass="text-field" />
+            <Button onAction="#submitAnswer" styleClass="button" text="Submit Answer" />
+        </VBox>
+    </VBox>
+
+    <Label fx:id="resultLabel" styleClass="label" text="" textAlignment="CENTER" wrapText="true" />
+
+    <Button onAction="#handleReturnToDashboard" styleClass="button-secondary" text="Return to Dashboard" visible="false" fx:id="returnButton" />
+</VBox>

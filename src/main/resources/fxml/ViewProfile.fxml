@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" spacing="20.0" styleClass="root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewProfileController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label styleClass="header-label" text="User Profile" />
+
+    <VBox alignment="CENTER" spacing="20.0" styleClass="card">
+        <VBox spacing="15.0" alignment="CENTER_LEFT">
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Username:" styleClass="profile-detail-label" />
+                <Label fx:id="usernameLabel" text="[Username]" styleClass="profile-detail-value"/>
+            </HBox>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Nationality:" styleClass="profile-detail-label" />
+                <Label fx:id="nationalityLabel" text="[Nationality]" styleClass="profile-detail-value"/>
+            </HBox>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Balance:" styleClass="profile-detail-label" />
+                <Label fx:id="balanceLabel" text="[Balance]" styleClass="profile-detail-value"/>
+            </HBox>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="XP:" styleClass="profile-detail-label" />
+                <Label fx:id="xpLabel" text="[XP]" styleClass="profile-detail-value"/>
+            </HBox>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Level:" styleClass="profile-detail-label" />
+                <Label fx:id="levelLabel" text="[Level]" styleClass="profile-detail-value"/>
+                <ImageView fx:id="levelIconView" fitHeight="40" fitWidth="40" preserveRatio="true" />
+            </HBox>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="10.0">
+            <Label text="Progress to next level:" />
+            <ProgressBar fx:id="xpProgressBar" prefWidth="250.0" progress="0.0" styleClass="progress-bar" />
+            <Label fx:id="progressLabel" text="0/0 XP" />
+        </VBox>
+    </VBox>
+</VBox>

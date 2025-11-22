@@ -1,0 +1,9 @@
+Elxan|Azerbaijan|123|1000.0|0|bronze
+Huseyn123|Azerbaijan|23134567|1000.0|0|bronze
+Huseyn|Azerbaijan|12345|1000.0|0|Bronze
+Huseyn12|Azerbaijan|123|19750.0|2150|Gold
+Huseyn34|Azerbaijan|12345678|1000.0|0|bronze
+testuser|USA|password|1000.0|0|Bronze
+Ahmed12|ASfsdf|1231457689|1000.0|0|bronze
+Ahmed1|Azeras|123|1000.0|0|bronze
+Sabina|Italy|1234|0.0|350|Bronze
