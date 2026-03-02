@@ -64,3 +64,14 @@ Luhn alqoritmi kart yoxlama üçün
 XP sistemi + Level sistemi
 
 Achievement Manager davranışa görə badge açır
+
+
+
+--------------------
+SCREENSHOTS
+--------------------
+
+
+
+
+
